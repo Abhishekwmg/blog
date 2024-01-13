@@ -192,14 +192,14 @@ ul li {
 }
 
 .blog-cards {
-    width: 90%;
+    width: 95%;
     margin: 0 5%;
 }
 
 .blog-cards .cards {
     width: 100%;
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     margin-top: 5rem;
 }
 
@@ -217,7 +217,7 @@ ul li {
 }
 
 .blog-cards .cards .card .card-heading {
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
     font-weight: 600;
     margin: 14px 0;
@@ -233,7 +233,7 @@ ul li {
 
 .blog-cards .cards .card .card-para{
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     margin: 14px 0;
 }
@@ -256,4 +256,129 @@ ul li {
     border: 1px solid #000;
     color: #fff;
     background: #000;
+}
+
+.blog-demo {
+    width: 90%;
+    height: 300px;
+    margin-top: 30px;
+    background-color: #23232b;
+    border-radius: 25px;
+    margin: 45px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.blog-demo .first-part {
+    width: 600px;
+}
+
+.blog-demo .first-part h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.blog-demo .first-part h1 span{
+    color: #fbc3a8;
+}
+
+
+.blog-demo .first-part p {
+    color: #919195;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blog-demo .second-part img {
+    width: 100px;
+}
+
+.blog-demo .third-part button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 50px;
+    background-color: rgba(45, 117, 241, 1);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.blog-demo .third-part button:hover {
+    background-color: rgba(14, 86, 209);
+}
+
+.sponsors {
+    width: 90%;
+    margin: 0 5%;
+    overflow: hidden;
+}
+
+.sponsors .sponsor-heading p span i{
+    margin-right: 10px;
+}
+
+.sponsors .sponsor-heading {
+    text-align: center;
+    color: #D972A7;
+    font-size: 30px;
+    margin: 14px 0;
+}
+
+.sponsors .sponsor-heading .bold-type {
+    font-weight: 600;
+}
+
+.sponsors .sponsor-branding {
+    display: flex;
+    height: 150px;
+    background-color: #fcf4ff;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.sponsors .sponsor-branding .sponsor-detail .detail-box{
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+
+.sponsors .sponsor-branding .sponsor-detail img{
+    width: 70px;
+}
+  
+.sponsors .sponsor-branding .sponsor-detail .brand-name{
+    font-size: 15px;
+    color: #471B52;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.featured-section {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.featured-section .feat-heading p {
+    text-align: center;
+    color: #D972A7;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.featured-section .feat-heading p span i {
+    margin-right: 10px;
+}
+
+.featured-section .feat-heading p .bold-type{
+    font-weight: 600;
 }
