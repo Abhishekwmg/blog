@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +8,252 @@
 }
 
 body {
-    background-color: #333;
+    width: 100%;
     color: #fff;
+    font-family: 'Noto Sans', Courier, monospace, Arial, sans-serif;
+}
+
+.page-top-header {
+    min-height: 4vh;
+    background-color: #471B52;
+}
+
+.container .page-top-header .flex-container {
+    display: flex;
+    justify-content: end;
+    margin-right: 60px;
+    gap: 2rem;
+}
+
+.container .page-top-header .flex-container .details ul,
+.container .page-top-header .flex-container .social ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container .page-top-header .flex-container .details ul li,
+.container .page-top-header .flex-container .social ul li {
+    padding: 0 10px;
+} 
+
+.container .page-top-header .flex-container .details ul li a {
+    text-decoration: none;
+    font-size: 9px;
+    color: #fff;
+    transition: all 0.18s ease-in;
+    letter-spacing: 1.5px;
+}
+
+.container .page-top-header .flex-container .details ul li a:hover{
+    
+    color: #D972A7;
+}
+
+.container .page-top-header .flex-container .social ul li a {
+    font-size: 12px;
+    color: #fff;
+    transition: all 0.18s ease-in;;
+    letter-spacing: 1.5px;
+}
+
+.container .page-top-header .flex-container .social ul li a:hover {
+    color: #D972A7;
+}
+
+.header {
+    min-height: 15vh;
+    background: #fff;
+    margin: 20px 5%;
+
+}
+
+.header .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header .flex-container .logo {
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+
+.header .flex-container .logo img {
+    width: 50px;
+    
+}
+
+.header .flex-container .logo p {
+    font-size:30px;
+    color: #000;
+    font-weight: 100;
+}
+
+.header .flex-container .logo p span {
+    color: #471b52;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header .flex-container .nav-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.header .flex-container .nav-menu ul li a {
+    text-decoration: none;
+    padding: 0 15px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.1s ease-in;
+}
+
+.header .flex-container .nav-menu ul li a i {
+    color: #864c95;
+}
+
+.header .flex-container .nav-menu ul li a:hover{
+    color: #D972A7;
+}
+
+.home-screen {
+    height: 70vh;
+    margin: 0 5%;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-screen .screen-container {
+    max-height: inherit;
+    width: 100%;
+}
+
+.home-screen .screen-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.home-screen .screen-details {
+    height: 100%;
+    width: 60%;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+.home-screen .screen-details .para {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.home-screen .screen-details .heading {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.home-screen .screen-details .para-two {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.home-screen .screen-details .btn button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    background: transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.home-screen .screen-details .btn button:hover{
+    border: none;
+    color: #000;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.blog-cards {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.blog-cards .cards {
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.blog-cards .cards .card{
+    max-width: 30%;
+    height: auto;
+    overflow: hidden;
+}
+
+.blog-cards .cards .card .card-date {
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 14px 0;
+}
+
+.blog-cards .cards .card .card-heading {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin: 14px 0;
+}
+
+.blog-cards .cards .card .card-image img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 14px 0;
+}
+
+.blog-cards .cards .card .card-para{
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 14px 0;
+}
+
+.blog-cards .cards .card .btn button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 14px 0;
+}
+
+
+.blog-cards .cards .card .btn button:hover{
+    border: 1px solid #000;
+    color: #fff;
+    background: #000;
 }
