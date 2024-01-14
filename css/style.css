@@ -337,7 +337,7 @@ ul li {
 .sponsors .sponsor-branding {
     display: flex;
     height: 150px;
-    background-color: #fcf4ff;
+    background-color: #e5dcff;
     border-radius: 15px;
     align-items: center;
     justify-content: space-evenly;
@@ -382,3 +382,152 @@ ul li {
 .featured-section .feat-heading p .bold-type{
     font-weight: 600;
 }
+
+.featured-section .feat-profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    background-color: #e5dcff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.featured-section .feat-profile .card { 
+    height: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff;
+    transition: all 0.2s ease-in;
+}
+
+.featured-section .feat-profile .card:hover{
+    background: #D972A7;
+}
+
+.featured-section .feat-profile .card .card-img {
+    width: 200px;   
+    overflow: hidden;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.featured-section .feat-profile .card .card-img img {
+    width: 100%;
+}
+
+.featured-section .feat-profile .card .card-name {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+
+.featured-section .feat-profile .card .card-name:hover{
+    color: #fff;
+}
+
+.featured-section .feat-profile .card .card-prof {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #919195;
+    font-style: italic;
+}
+
+.featured-section .feat-profile .card .card-prof:hover{
+    color: #fff;
+}
+
+.archive-form {
+    width: 90%;
+    background-color: #e5dcff;
+    margin: 40px 5%;
+    border-radius: 15px;
+}
+
+.pod-form h1 {
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pod-form h1 i {
+    margin-right: 10px;
+    color: #D972A7;
+}
+
+.archive-form form .flex-boxes {
+    display: flex;
+    height: 100px;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.archive-form form .flex-boxes .category select {
+    width: 230px;
+    height: 50px;
+    border: none;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Noto Sans', Courier, monospace, Arial, sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.archive-form form .flex-boxes .search-bar{
+    position: relative;
+}
+
+.archive-form form .flex-boxes .search-bar i {
+    position: absolute;
+    color: #000;
+    top: 15px;
+    left: 18px;
+    font-size: 20px;
+}
+
+.archive-form form .flex-boxes .search-bar button {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 0 10px;
+}
+
+.archive-form form .flex-boxes .search-bar input{
+    width: 315px;
+    height: 50px;
+    border: none;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Noto Sans', Courier, monospace, Arial, sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.archive-form form .flex-boxes .search-bar button {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    padding: 5px 20px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Noto Sans', Courier, monospace, Arial, sans-serif;
+}
+
+
+/* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+
